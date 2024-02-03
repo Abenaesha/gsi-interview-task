@@ -15,5 +15,8 @@
   "dependencies": {
     "dotenv": "^16.4.1",
     "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16"
   }
 }
