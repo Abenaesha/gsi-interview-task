@@ -12,7 +12,8 @@
       "outDir": "dist",
       "baseUrl": "src",
       "strict": false,
-      "removeComments": true
+      "removeComments": true,
+      "esModuleInterop": true
   },
   "include": [
       "./src/**/*"

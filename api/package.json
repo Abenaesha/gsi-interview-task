@@ -6,14 +6,16 @@
   "license": "ISC",
   "main": "dist/index.js",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "typeorm": "typeorm-ts-node-commonjs"
   },
   "dependencies": {
     "body-parser": "1.19.0",
     "cors": "2.8.5",
-    "express": "4.17.1",
+    "express": "^4.17.1",
     "knex": "0.21.0",
-    "pg": "8.0.3",
+    "pg": "^8.11.3",
+    "typeorm": "^0.3.20",
     "uuid": "7.0.3"
   },
   "devDependencies": {
