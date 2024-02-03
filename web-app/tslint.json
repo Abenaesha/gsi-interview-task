@@ -1,0 +1,11 @@
+{
+  "extends": "tslint-config-standard",
+  "rules": {
+    "no-unused-expression": false,
+    "one-variable-per-declaration": false,
+    "no-ex-assign": false,
+    "no-floating-promises": false,
+    "await-promise": [true, "Thenable"],
+    "forin": false
+  }
+}

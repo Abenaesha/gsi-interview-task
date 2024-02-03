@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "knex": "0.21.0",
+    "pg": "8.0.3",
+    "uuid": "7.0.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "1.19.0",
+    "@types/cors": "2.8.6",
+    "@types/express": "4.17.6",
+    "@types/node": "13.13.4",
+    "@types/pg": "7.14.3",
+    "@types/uuid": "7.0.3",
+    "ts-node": "8.9.1",
+    "tslint": "6.1.2",
+    "tslint-config-standard": "9.0.0",
+    "typescript": "3.8.3"
+  }
+}

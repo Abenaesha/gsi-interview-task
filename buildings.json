@@ -1,0 +1,141 @@
+[{
+  "geom_id": "afd6919d-55fa-4c3b-850f-d7b35c00ff71",
+  "address": "517 2 AVE",
+  "city": "NEW YORK",
+  "country": "USA",
+  "roof_material": "Built-up roof or single-ply membrane",
+  "roof_type": "Flat",
+  "area": 93.58,
+  "storeys": 4,
+  "height": 14,
+  "geometry": {
+    "type": "GeometryCollection",
+    "geometries": [{
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-73.9786157011986, 40.7415857275002],
+          [-73.9785749315888, 40.7416426293324],
+          [-73.9784376024545, 40.7415857275002],
+          [-73.9784762263298, 40.7415304516078],
+          [-73.9786157011986, 40.7415857275002]
+        ]
+      ]
+    }, {
+      "type": "Point",
+      "coordinates": [-73.9784868481707, 40.7415482499998]
+    }]
+  }
+}, {
+  "geom_id": "30adda76-4810-4771-9769-b3c82b9bbc15",
+  "address": "517 W  29 ST",
+  "city": "NEW YORK",
+  "country": "USA",
+  "roof_material": "Built-up roof or single-ply membrane",
+  "roof_type": "Flat",
+  "area": 811.28,
+  "storeys": 15,
+  "height": 51,
+  "geometry": {
+    "type": "GeometryCollection",
+    "geometries": [{
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-74.0026460174166, 40.7520433839367],
+          [-74.0024765017744, 40.7522612016964],
+          [-74.0021803858342, 40.7521457909207],
+          [-74.0023370269059, 40.7519198451655],
+          [-74.0026460174166, 40.7520433839367]
+        ]
+      ]
+    }, {
+      "type": "Point",
+      "coordinates": [-74.0022838747831, 40.7520451499998]
+    }]
+  }
+}, {
+  "geom_id": "9cf40099-df07-47a5-9586-d8088d06048f",
+  "address": "149 E  36 ST",
+  "city": "NEW YORK",
+  "country": "USA",
+  "roof_material": "Built-up roof or single-ply membrane",
+  "roof_type": "Flat",
+  "area": 95.38,
+  "storeys": 4,
+  "height": 14,
+  "geometry": {
+    "type": "GeometryCollection",
+    "geometries": [{
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-73.9779848456383, 40.7474626039325],
+          [-73.9779161809893, 40.7474333429001],
+          [-73.9778282045663, 40.7475617667859],
+          [-73.9778904318482, 40.7475796486155],
+          [-73.9779848456383, 40.7474626039325]
+        ]
+      ]
+    }, {
+      "type": "Point",
+      "coordinates": [-73.9779173409413, 40.7474762499998]
+    }]
+  }
+}, {
+  "geom_id": "2d6c7bd0-bd49-464a-9681-455a4f41d6fb",
+  "address": "437 3 AVE",
+  "city": "NEW YORK",
+  "country": "USA",
+  "roof_material": "Built-up roof or single-ply membrane",
+  "roof_type": "Flat",
+  "area": 804.22,
+  "storeys": 8,
+  "height": 27,
+  "geometry": {
+    "type": "GeometryCollection",
+    "geometries": [{
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-73.9795764683695, 40.7434382595964],
+          [-73.9797395468085, 40.7432106586164],
+          [-73.9794520139694, 40.7430871034973],
+          [-73.9792932269993, 40.7433309621134],
+          [-73.9795764683695, 40.7434382595964]
+        ]
+      ]
+    }, {
+      "type": "Point",
+      "coordinates": [-73.9795230772479, 40.7432695999998]
+    }]
+  }
+}, {
+  "geom_id": "5930dbd4-ea99-4acb-b3f1-9f26605e5dc7",
+  "address": "441 W  37 ST",
+  "city": "NEW YORK",
+  "country": "USA",
+  "roof_material": "Built-up roof or single-ply membrane",
+  "roof_type": "Flat",
+  "area": 155.72,
+  "storeys": 2,
+  "height": 9,
+  "geometry": {
+    "type": "GeometryCollection",
+    "geometries": [{
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-73.9967452883557, 40.756167230102],
+          [-73.9966894984409, 40.7561460998157],
+          [-73.9965328574508, 40.7563622786953],
+          [-73.9966015219361, 40.7563834089129],
+          [-73.9967452883557, 40.756167230102]
+        ]
+      ]
+    }, {
+      "type": "Point",
+      "coordinates": [-73.9966586241266, 40.7562283499998]
+    }]
+  }
+}]

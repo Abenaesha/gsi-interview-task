@@ -1,0 +1,19 @@
+{
+  "name": "interview-task",
+  "version": "1.0.0",
+  "description": "Interview task for Full-stack web developer role.",
+  "scripts": {
+    "start": ""
+  },
+  "author": "Lina Ragauskaite",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [],
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "pg": "^8.11.3"
+  }
+}
