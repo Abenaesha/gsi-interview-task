@@ -1,0 +1,9 @@
+<div class="table-and-button-container">
+  <app-table
+    [data]="geometries"
+    [columns]="['address', 'city', 'country']"
+    (onRowClick)="openDialog($event)">
+  </app-table>
+
+  <button mat-raised-button color="primary" class="add-new-btn" (click)="createNewGeometry()">Add New</button>
+</div>

@@ -1,0 +1,20 @@
+<table class="app-table">
+  <thead>
+    <tr>
+      <th *ngFor="let column of columns">
+        {{ column | titlecase }}
+      </th>
+      <!-- <th>Action</th> -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of data" (click)="rowClicked(row)">
+      <td *ngFor="let column of columns">
+        {{ row[column] }}
+      </td>
+      <!-- <td>
+        <button (click)="rowClicked($event, row)">Edit</button>
+      </td> -->
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,39 @@
+.app-table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px 30px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.app-table th,
+.app-table td {
+  padding: 8px 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.app-table th {
+  background-color: #f5f5f5;
+  text-align: left;
+  border-right: 1px solid #e0e0e0;
+}
+
+.app-table td {
+  border-right: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.app-table th:last-child,
+.app-table td:last-child {
+  border-right: none;
+}
+
+.app-table tr:hover {
+  background-color: #f0f0f0;
+}
+
+.app-table tr:last-child td {
+  border-bottom: none;
+}

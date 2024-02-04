@@ -1,0 +1,24 @@
+button {
+  margin-right: 8px;
+}
+
+.full-width {
+  width: 92%;
+}
+
+mat-form-field {
+  margin-right: 10px;
+  width: 45%;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  mat-form-field {
+    margin-bottom: 10px;
+  }
+}
