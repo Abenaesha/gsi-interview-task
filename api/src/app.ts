@@ -13,10 +13,9 @@ app.use(cors());
 app.use('/', buildingRoutes);
 
 app.get('/', (req, res) => {
-  res.send('Server is running ABDAL');
+  res.send('Server is running');
 });
 
-// Start the Express server
 app.listen(PORT, async () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
