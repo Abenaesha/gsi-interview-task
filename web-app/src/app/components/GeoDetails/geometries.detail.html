@@ -44,9 +44,8 @@
     <textarea matInput formControlName="geometry" placeholder="Geometry">{{ data.geometry | json }}</textarea>
   </mat-form-field>
 
-  <!-- Buttons for updating, or deleting -->
   <div class="actions">
-    <button mat-raised-button color="warn" type="button" (click)="onDelete()">{{ isNewGeometry() ? 'Cancel' : 'Delete' }}</button>
-    <button mat-raised-button color="primary" type="submit">{{ isNewGeometry() ? 'Save' : 'Update' }}</button>
+    <button mat-raised-button color="warn" class="add-new-btn" type="button" (click)="onDelete()">{{ isNewGeometry() ? 'Cancel' : 'Delete' }}</button>
+    <button mat-raised-button color="primary" class="add-new-btn" type="submit">{{ isNewGeometry() ? 'Save' : 'Update' }}</button>
   </div>
 </form>

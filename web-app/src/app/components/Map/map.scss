@@ -1,0 +1,21 @@
+.map-container {
+  width: 96%;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+
+.ol-attribution {
+  bottom: 10px !important;
+  left: 10px !important;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 0.75rem;
+  max-width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

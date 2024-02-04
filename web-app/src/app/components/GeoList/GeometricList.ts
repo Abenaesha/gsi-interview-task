@@ -2,6 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { Geometry, GeometryService } from "../../services/geometry";
 import { GeoDetailComponent } from "../GeoDetails/GeometricDetail";
 import { MatDialog } from "@angular/material/dialog";
+import { MapCommunicationService } from "../shared/map-communication.service";
 
 @Component({
   selector: "app-geometries-list",
@@ -13,7 +14,8 @@ export class GeoListComponent implements OnInit {
 
   constructor(
     private geometryService: GeometryService,
-    public dialog: MatDialog
+    public dialog: MatDialog,
+    private mapCommunicationService: MapCommunicationService
   ) {}
 
   ngOnInit(): void {
@@ -24,6 +26,7 @@ export class GeoListComponent implements OnInit {
     this.geometryService.getGeometries().subscribe({
       next: (data) => {
         this.geometries = data;
+        this.mapCommunicationService.updateGeometries(data);
       },
       error: (error) => console.error(error),
     });
