@@ -5,6 +5,7 @@
   "author": "",
   "license": "ISC",
   "main": "upload.js",
+  "type": "module",
   "scripts": {
     "start": "node upload.js"
   },

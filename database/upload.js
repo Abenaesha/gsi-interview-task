@@ -1,5 +1,7 @@
 import dotenv from 'dotenv';
-import { Pool } from 'pg';
+import pkg from 'pg';
+const { Pool } = pkg;
+
 import { promises as fs } from 'fs';
 
 dotenv.config();
@@ -11,18 +13,6 @@ const pool = new Pool({
   user: process.env.DB_USER,
 });
 
-interface Building {
-  geom_id: string;
-  address: string;
-  city: string;
-  country: string;
-  roof_material: string;
-  roof_type: string;
-  area: number;
-  storeys: number;
-  height: number;
-  geometry: any;
-}
 
 const createTableQuery = `
 CREATE EXTENSION IF NOT EXISTS postgis;
@@ -61,7 +51,7 @@ const insertData = async () => {
 
   // Read the JSON file
   const fileContent = await fs.readFile('buildings.json', 'utf8');
-  const buildings: Building[] = JSON.parse(fileContent);
+  const buildings = JSON.parse(fileContent);
 
   for (const building of buildings) {
     const {
