@@ -12,6 +12,7 @@ import {
 } from "@angular/material";
 import { TableComponent } from "./components/Table/table";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { MapComponent } from "./components/Map/map";
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     GeoListComponent,
     GeoDetailComponent,
     TableComponent,
+    MapComponent,
   ],
   imports: [
     BrowserModule,
